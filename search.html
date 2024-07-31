@@ -22,7 +22,7 @@
         <div class="navigation">
             <ul>
                 <!-- <i id="menu-close" class="fas fa-times"></i> -->
-                <li><a class="active" href="./index.html">Home</a></li>
+                <li><a href="./index.html">Home</a></li>
                 <li><a href="./about.html">About</a></li>
                 <!-- <li><a href="#">Addmission Enquiry</a></li> -->
                 <li><a href="#">Contact</a></li>
@@ -34,52 +34,23 @@
 
     <!-- main index -->
 
-    <section id="home">
-        <h2>School Searching Made Simple</h2>
-        <p>Easily find and compare schools based on your unique needs. Whether it's academics, extracurriculars, or location, our platform helps you discover the perfect fit for your educational goals.</p>
-        <div class="btn">
-            <a class="main-btn" href="./search.html">Search</a>
-        </div>
+    <section id="search-home">
+        <h2>Your Journey Begins Here /</h2>
     </section>
 
-    <section id="features">
-        <h1>Awesome features</h1>
-        <p>Easily find and compare schools based on your unique needs.</p>
-        <div class="feature-base">
-            <!-- academics card -->
-            <div class="feature-box">
-                <i class="fa-solid fa-graduation-cap"></i>
-                <h3>Academics</h3>
-                <p>Find schools that match your academic goals and interests.</p>
-            </div>
 
-            <!-- extracurriculars card -->
-            <div class="feature-box">
-                <i class="fa-solid fa-table-tennis-paddle-ball"></i>
-                <h3>Extracurriculars</h3>
-                <p>Discover schools that offer the extracurriculars you're interested in.</p>
-            </div>
 
-            <!-- location -->
-            <div class="feature-box">
-                <i class="fa-solid fa-location-dot"></i>
-                <h3>Location</h3>
-                <p>Find schools that are close to your home or work.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- course == all-schools -->
+    <!-- all schools based on their search -->
 
     <section id="all-schools">
         <h1>Top Schools</h1>
-        <p>Discover the best schools in your area.</p>
+        <p>Based on your search | Begins now.</p>
 
         <!-- course-box == school-box -->
         <div class="school-box">
 
             <!-- courses == school -->
-            <div class="school">
+            <div onclick="window.location.href='./schoolDetails.html';" class="school">
                 <img src="./assets/school1.jpeg" alt="">
                 <div class="details">
                     <span>NR4 7DS</span>
@@ -205,35 +176,11 @@
                 </div>
             </div>
 
+
         </div>
     </section>
 
-    <!-- Registration section -->
-
-    <section id="registration">
-        <!-- reminder == content -->
-        <div class="content">
-            <p>Find Your Perfect School Match Today!</p>
-            <h1>Contact us</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi cum accusamus, consequuntur quae iure commodi laudantium illum nesciunt doloribus enim consequatur consectetur sunt cumque facilis asperiores rerum quas molestiae a?</p>
-        </div>
-
-        <div class="form">
-            <h3>create free account now</h3>
-            <input class="form-input" type="text" placeholder="Name" name="" id="">
-            <input class="form-input" type="text" placeholder="Email" name="" id="">
-            <textarea class="form-textarea" name="" id="" cols="30" rows="10"></textarea>
-            <!-- <input type="text" placeholder="Create Password" name="" id=""> -->
-            <!-- <input type="text" placeholder="Confirm Password" name="" id=""> -->
-
-            <div class="btn">
-
-                <!-- blue == main-btn -->
-                <a class="main-btn" href="#">Submit form</a>
-            </div>
-        </div>
-    </section>
-
+    
     <!-- footer section -->
 
     <footer>
