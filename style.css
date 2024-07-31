@@ -605,6 +605,21 @@ footer .social-links i:hover{
     padding: 8vw;
 }
 
+#school-inner h3{
+    padding: 35px 0 25px 0;
+    color: #29303B;
+}
+
+#school-inner p{
+    color: #64626e;
+}
+
+#school-inner hr{
+    height: 1px;
+    background-color: rgba(236, 226, 229, 0.5);
+    margin-top: 40px;
+}
+
 #school-inner .overview{
     width: 70%;
 }
@@ -632,6 +647,19 @@ footer .social-links i:hover{
     color: #29303B;
 }
 
+
+#school-inner .overview .school-head .s-name h2 img{
+    width: 20px;
+}
+
+#school-inner .overview .school-head .s-name h2 p{
+    /* font-weight: 600; */
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+
 #school-inner .overview .school-head .s-name .star{
     margin: 6px 0;
 }
@@ -642,41 +670,97 @@ footer .social-links i:hover{
 
 }
 
-#school-inner .overview .school-head .s-name p{
+
+
+
+#school-inner .additions p{
     font-size: 15px;
+    padding-bottom: 15px;
 }
 
+#school-inner .additions p i{
+    color: #654ce4;
+    font-weight: 700;
+    margin-right: 20px;
+}
 
-#school-inner .overview .school-head span{
+#school-inner .maps-details{
     display: flex;
-    align-items: center;
-    justify-content:space-between;
-    /* border: 1px solid black; */
-    width: 10%;
 }
 
-#school-inner .overview .school-head span .locationIcon{
-    width: 25%;
-    height: 3vh;
-    /* border: 1px solid black; */
-}
-
-#school-inner .overview .school-head span p{
-    font-weight: 600;
-    transition: 0.3s ease;
-}
-
-#school-inner .overview .school-head span p:hover{
-    color: #216ced;
+#school-inner .maps-details img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
     cursor: pointer;
 }
 
-#school-inner .additions
+
+#school-inner .maps-details h5{
+    font-size: 15px;
+}
+
+#school-inner .maps-details .map-det{
+    display: grid;
+    grid-column: auto;
+}
+
+#school-inner .maps-details .map-det a{
+    text-decoration: none;
+    color: #216ced;
+    font-weight: 600;
+    transition: 0.3 ease;
+}
 
 
+#school-inner .school-details{
+    width: 300px;
+    padding: 0 30px 30px 30px;
+    border-radius: 11px;
+    box-shadow: 0px 20px 40px 0 rgb(11 2 55 / 8%);
+}
 
+#school-inner .school-details h3{
+    padding-bottom: 10px;
+}
 
+#school-inner .school-details p{
+    font-size: 15px;
+    color: #64626e;
+    margin: 15px 0;
+}
 
+#school-inner .school-details p i{
+    color: #654ce4;
+    font-weight: 500;
+    margin-right: 18px;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+}
+
+#school-inner .school-details .school-website-link{
+    padding: 25px 0 20px 0;
+    margin: auto;
+    text-align: center;
+}
+
+#school-inner .school-details .school-website-link a{
+    text-decoration: none;
+    font-size: 0.8rem;
+    padding: 13px 45px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(50 50 136);
+    transition: 0.3 ease;
+}
+
+#school-inner .school-details .school-website-link a:hover{
+    background-color: rgb(65, 65, 159);;
+}
 
 
 
@@ -801,9 +885,33 @@ footer .social-links i:hover{
         width: 50px;
         height: auto;
     }
-    
+
+    /* schools-Details page */
+
+    #school-inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 8vw 4vw;
+    }
+
+    #school-inner .overview {
+        width: 100%;
+    }
+
+    #school-inner .overview .school-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #school-inner .school-details {
+        margin-top: 25px;
+    }
 
     
+
+    /* 1354 */
 }
 
 @media (max-width: 475px){
@@ -834,6 +942,20 @@ footer .social-links i:hover{
         margin: 10px 15px;
         height: auto;
     }
+
+    #search-home h2 {
+        font-size: 1rem;
+    }
+
+    #school-inner .overview .school-head .s-name {
+        width: 100%;
+        /* border: 1px solid black; */
+    }
+
+    #school-inner .school-details {
+       width: 100%;
+    }
+   
 }
 
 
