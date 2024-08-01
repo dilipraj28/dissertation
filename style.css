@@ -713,6 +713,10 @@ footer .social-links i:hover{
     transition: 0.3 ease;
 }
 
+#school-inner .maps-details .map-det a:hover{
+    color: #010b9b;
+}
+
 
 #school-inner .school-details{
     width: 300px;
