@@ -8,6 +8,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    transition: transform 0.5s ease, opacity 0.5s ease;
 }
 
 /* Universal elements */
@@ -710,7 +711,14 @@ footer .social-links i:hover{
     text-decoration: none;
     color: #216ced;
     font-weight: 600;
-    transition: 0.3 ease;
+    /* transition: 0.3 ease; */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* this is for zoom out transition */
+.zoom-out {
+    transform: scale(0.5);
+    opacity: 0;
 }
 
 #school-inner .maps-details .map-det a:hover{
