@@ -1136,6 +1136,22 @@ footer .social-links i:hover{
         margin-bottom: 30px;
     }
 
+    #contact .form {
+        width: 100%;
+        padding: 40px 30px;
+    }
+
+    #contact .form .form-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    #contact .form .form-row input{
+        width: 100%;
+    }
+
     
    
 }
